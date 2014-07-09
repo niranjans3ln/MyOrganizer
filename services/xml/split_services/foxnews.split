@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>true</escapeXML>
+        <group>other</group>
+        <httpmethod>GET</httpmethod>
+        <id>foxnews</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?&gt;
+
+&lt;?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?&gt;
+
+&lt;rss xmlns:fnc="http://www.foxnews.com/xmlfeed/fncModule#" version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;FOXNews.com&lt;/title&gt;
+      &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;description&gt;FOX News Channel - We Report. You Decide.&lt;/description&gt;
+      &lt;copyright&gt;Copyright 2014 FOX News Channel&lt;/copyright&gt;
+      &lt;managingEditor&gt;foxnewsonline@foxnews.com&lt;/managingEditor&gt;
+      &lt;language&gt;en-us&lt;/language&gt;
+      &lt;lastBuildDate&gt;Fri, 06 June 2014 05:38:49 EDT&lt;/lastBuildDate&gt;
+      &lt;webMaster&gt;foxnewsonline@foxnews.com&lt;/webMaster&gt;
+      &lt;image&gt;
+         &lt;url&gt;http://www.foxnews.com/images/headers/fnc_logo.gif&lt;/url&gt;
+         &lt;title&gt;FOXNews.com Live Bookmark&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;/image&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.foxnews.com/foxnews/latest" rel="self" type="application/rss+xml"/&gt;
+      &lt;feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="foxnews/latest"/&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Bergdahl's condition improving, but yet to speak to parents, officials say]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/06/bergdahl-improving-but-yet-to-speak-to-parents-pentagon-officials-say/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;B&gt;ARMY SGT. BOWE BERGDAHL&lt;/B&gt;, left, has not spoken with his family, right, days after being released in exchange for five high-profile Taliban fighters following nearly five years in Taliban captivity, Pentagon officials say.&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/06/exclusive-bergdahl-declared-jihad-secret-documents-show/"&gt;&lt;span style="color: red; font-weight: bold;"&gt;EXCLUSIVE: &lt;/span&gt;Bergdahl declared jihad in captivity, secret documents show&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/us/2014/06/05/would-have-died-for-him-6-soldiers-who-served-with-bergdahl-seek-answers/"&gt;6 soldiers who served with Bergdahl seek answers&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/taliban-threatened-to-kill-bergdahl-hill-sources-skeptical-latest-reason-for/"&gt;Taliban death threat? New reason for swap questioned&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/obama-digs-in-on-taliban-prisoner-trade-vows-no-apologies/"&gt;Obama digs in on trade&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/taliban-encouraged-to-kidnap-swap-more-us-soldiers-for-gitmo-prisoners-report/"&gt;Report: Taliban 'encouraged' to kidnap more soldiers&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/administration-official-apologizes-for-tweets-bergdahl-platoon-psychopaths/"&gt;Administration official apologizes for suggesting Bergdahl platoon 'psychopaths'&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:13:32 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:13 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[FEDERAL ROAD BLOCK Alaska town fights feds for road nixed by nature fears]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/06/alaska-fishing-inlet-sues-interior-dept-over-emergency-weather-road/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/06/federal-double-standard-on-endangered-species-laws/"&gt;Federal double standard on endangered species laws?&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:13:32 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:13 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[EXCLUSIVE  Bergdahl declared jihad in captivity, secret docs show]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/06/exclusive-bergdahl-declared-jihad-secret-documents-show/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/us/2014/06/05/would-have-died-for-him-6-soldiers-who-served-with-bergdahl-seek-answers/"&gt;6 soldiers who served with Bergdahl seek answers&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/taliban-threatened-to-kill-bergdahl-hill-sources-skeptical-latest-reason-for/"&gt;Taliban death threat? New reason for swap questioned&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/us/2014/06/05/bergdahl-improving-but-yet-to-speak-to-parents-pentagon-officials-say/"&gt;Officials: Bergdahl improving, but yet to speak to parents&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/obama-digs-in-on-taliban-prisoner-trade-vows-no-apologies/"&gt;Obama digs in on trade&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/taliban-encouraged-to-kidnap-swap-more-us-soldiers-for-gitmo-prisoners-report/"&gt;Report: Taliban 'encouraged' to kidnap more soldiers&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/05/administration-official-apologizes-for-tweets-bergdahl-platoon-psychopaths/"&gt;Administration official apologizes for suggesting Bergdahl platoon 'psychopaths'&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:13:32 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:13 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA['A NUMBER OF HEROES' Student disarms Seattle gunman who killed 1, hurt 3]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/06/shooting-at-seattle-pacific-university/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/us/2014/06/05/good-grades-good-home-gets-college-student-profiledas-rapist-claims-lawsuit/"&gt;Did good grades, home get college student profiled as rapist?&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:13:32 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:13 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[REMEMBERING D-DAY WWII veterans honor fallen heroes on 70th anniversary]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/06/veterans-honor-d-day-fallen-70-years-later/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/us/2014/06/05/ship-flag-news-bulletins-among-d-day-items-up-for-auction-in-new-york/"&gt;Ship's flag, news bulletins among D-Day items up for auction in New York&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/travel/2014/06/05/guide-to-commemorating-70th-anniversary-d-day/"&gt;Guide to commemorating the 70th anniversary of D-Day&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/science/2014/06/05/uk-royal-air-force-recreates-iconic-d-day-photos/"&gt;UK's Royal Air Force recreates iconic D-Day photos&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:13:32 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:13 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[FOX NEWS POLL: GOP has edge in 2014 midterms- FOX NEWS POLL: Voters feel slightly better about nation's economy]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/05/fox-news-poll-republicans-have-edge-in-2014-midterm-ballot-test/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Police dept. that lost gun won't get armored vehicle]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/05/police-in-florida-town-lose-assault-rifle-miss-out-on-armored-vehicle/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Clinton aides tell New York Times to back off]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/05/clinton-aides-tell-new-york-times-to-back-off-in-secret-summit/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Suspect arrested in Canadian Mounted Police killings]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/06/suspect-arrested-in-canadian-mounted-police-killings/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Solution to GM defect cost company nothing- GM dismisses 15 in wake of recall report- DR. ABLOW: Do GM executives belong in jail?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/leisure/2014/06/05/fix-for-gm-ignition-switch-defect-cost-company-nothing-according-to/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Bombs strike Afghan candidate convoy]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/06/bombs-strike-afghan-candidate-convoy/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Man paints American flag on home to protest fines]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/05/florida-man-paints-american-flag-on-home-to-protest-fines/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[ #MarineHeldinMexico: Marine jailed in Mexico optimistic, says conditions have improved- FOX NEWS POLL: Majority want Obama to 'publicly demand' release of jailed US Marine- Full Coverage:  Marine's fight for freedom]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/05/marine-jailed-in-mexico-optimistic-says-conditions-have-improved/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Senate confirms Burwell as new health secretary]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/05/senate-confirms-burwell-as-obama-new-health-secretary/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[34 injured, including 23 firefighters, in NYC blaze]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/05/34-injured-including-23-firefighters-in-overnight-nyc-blaze/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Report: Boko Haram militants kill hundreds in Nigeria]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/05/boko-haram-militants-slaughtered-hundreds-in-attacks-in-ne-nigeria-witnesses/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Children of divorce may be more likely to be overweight]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/science/2014/06/04/children-divorce-may-be-more-likely-to-be-overweight/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[North Korea claims it is holding an American tourist]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/06/north-korea-claims-it-is-holding-american-tourist/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[KURTZ: Hillary does People: How to unofficially run for president (and soften your image)]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/06/hillary-does-people-how-to-unofficially-run-for-president-and-soften-your-image/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Marine jet crashes in S. California neighborhood- Navy jet crashes off California coast]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/05/military-jet-crashes-in-southern-california-authorities-say/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[VA acting chief says 18 veterans left off waiting list have died- Veterans still battling 1973 fire that wiped out millions of service records]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/06/va-acting-chief-says-18-veterans-left-off-waiting-list-have-died/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Some antibiotics may increase colon cancer risk]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/health/2014/06/05/some-antibiotics-may-slightly-increase-colon-cancer-risk/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Dinosaur graveyard discovered in southern Chile]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://latino.foxnews.com/latino/lifestyle/2014/06/05/dinosaur-graveyard-discovered-in-southern-chile-nearly-50-entire-fossils-found/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[EXCLUSIVE: Russian natural gas company Gazprom part of secretive gas group within UN European unit]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/04/russias-gazprom-part-secretive-natural-gas-group-within-un-european-unit/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Recognition of gay marriages kept on hold in Utah]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/05/federal-court-grants-stay-to-utah-keeps-recognition-gay-marriages-on-hold/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Obama to meet with allies over Ukraine crisis]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/05/obama-to-meet-with-britain-france-over-ukraine-crisis/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[41 senators seek repeal of Obama's cap-and-trade rule]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/04/forty-one-senators-push-for-repeal-obamas-cap-and-trade-rule/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[WORLD CUP COVERAGE:  Fox News Latino brings you the latest soccer news from Brazil]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://latino.foxnews.com/live-coverage/world-cup-brazil-2014&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Fri, 06 Jun 2014 05:36:58 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;05:36 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Car battery of the future]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/leisure/2014/06/05/ford-and-samsungs-new-lithium-ion-battery-may-send-lead-acid-units-to-scrap/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Aldean, Kerr done hiding ]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/05/jason-aldean-steps-out-with-brittany-kerr-at-cmt-awards/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Dumbest 'Wheel' guess ever?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/05/wheel-fortune-player-makes-huge-gaffe/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Paltrow: Water has feelings]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/05/gwyneth-paltrow-mean-words-hurts-water-feelings/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Hidden find in painting]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/science/2014/06/05/hidden-beached-whale-revealed-in-17th-century-dutch-painting/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Shield star called wife's dad]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/05/shield-actor-michael-jace-killing-wife-told-father-in-law-shooting-911-call/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Marijuana bad for sperm?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/health/2014/06/05/marijuana-use-may-affect-size-and-shape-men-sperm/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Mile high nuptials]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/travel/2014/06/05/couples-gets-engaged-and-married-in-air/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Spacey snaps at fan]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/05/kevin-spacey-stops-play-to-shout-at-fan-whose-cell-phone-rang/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Great Wolf Disney challenger?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/travel/2014/06/05/great-wolf-lodge-expands-to-new-england-eyes-site-near-disneyland/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[How low can star dresses go?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/slideshow/entertainment/2014/06/05/low-cut-dress-divas-jenner/#slide=1&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[JLo recalls THAT dress]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/05/jennifer-lopez-revisits-memorable-plunging-grammys-dress/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Space weather does what?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/science/2014/06/05/extreme-space-weather-common-stars-could-make-alien-life-scarce/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Own a piece of WWII history]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://video.foxnews.com/v/3606702076001/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Thu, 05 Jun 2014 15:54:57 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06/05&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>list</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//rss/channel/item</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>title</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>list</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>link</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//link</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>list</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>author</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//author</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>list</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>description</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//description</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>list</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>pubdate</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//pubDate</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>list</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>datetime</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//fnc:datetime</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>list</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://feeds.foxnews.com/foxnews/latest</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>forexRateForCurrencyCode</id>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>CurrCode</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>HKD</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;Hong Kong Dollar(HKD) Currency Converter&lt;/title&gt;
+      &lt;link&gt;http://hkd.fxexchangerate.com/&lt;/link&gt;
+      &lt;description&gt;Hong Kong Dollar(HKD) Exchange Rates&lt;/description&gt;
+      &lt;lastBuildDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/lastBuildDate&gt;
+      &lt;language&gt;en&lt;/language&gt;
+      &lt;copyright&gt;Copyright© 2014 Currency Converter,  http://www.fxexchangerate.com/ &lt;/copyright&gt;
+      &lt;docs&gt;http://www.fxexchangerate.com/currency-converter-rss-feed.html&lt;/docs&gt;
+      &lt;ttl&gt;15&lt;/ttl&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Australian Dollar(AUD)&lt;/title&gt;
+         &lt;link&gt;http://aud.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://aud.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.13713 Australian Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Albanian Lek(ALL)&lt;/title&gt;
+         &lt;link&gt;http://all.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://all.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 13.2813 Albanian Lek&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Algerian Dinar(DZD)&lt;/title&gt;
+         &lt;link&gt;http://dzd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://dzd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 10.23157 Algerian Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Argentine Peso(ARS)&lt;/title&gt;
+         &lt;link&gt;http://ars.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ars.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.04929 Argentine Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Aruba Florin(AWG)&lt;/title&gt;
+         &lt;link&gt;http://awg.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://awg.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.22963 Aruba Florin&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/British Pound(GBP)&lt;/title&gt;
+         &lt;link&gt;http://gbp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://gbp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.07592 British Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bahamian Dollar(BSD)&lt;/title&gt;
+         &lt;link&gt;http://bsd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bsd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.12901 Bahamian Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bahraini Dinar(BHD)&lt;/title&gt;
+         &lt;link&gt;http://bhd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bhd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.04865 Bahraini Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bangladesh Taka(BDT)&lt;/title&gt;
+         &lt;link&gt;http://bdt.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bdt.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 10.03548 Bangladesh Taka&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Barbados Dollar(BBD)&lt;/title&gt;
+         &lt;link&gt;http://bbd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bbd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.25801 Barbados Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Belarus Ruble(BYR)&lt;/title&gt;
+         &lt;link&gt;http://byr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://byr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1317.16442 Belarus Ruble&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Belize Dollar(BZD)&lt;/title&gt;
+         &lt;link&gt;http://bzd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bzd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.25737 Belize Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bermuda Dollar(BMD)&lt;/title&gt;
+         &lt;link&gt;http://bmd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bmd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.12901 Bermuda Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bhutan Ngultrum(BTN)&lt;/title&gt;
+         &lt;link&gt;http://btn.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://btn.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 7.75947 Bhutan Ngultrum&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bolivian Boliviano(BOB)&lt;/title&gt;
+         &lt;link&gt;http://bob.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bob.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.89144 Bolivian Boliviano&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Botswana Pula(BWP)&lt;/title&gt;
+         &lt;link&gt;http://bwp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bwp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.13363 Botswana Pula&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Brazilian Real(BRL)&lt;/title&gt;
+         &lt;link&gt;http://brl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://brl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.28493 Brazilian Real&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Brunei Dollar(BND)&lt;/title&gt;
+         &lt;link&gt;http://bnd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bnd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.16117 Brunei Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Bulgarian Lev(BGN)&lt;/title&gt;
+         &lt;link&gt;http://bgn.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bgn.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.18531 Bulgarian Lev&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Burundi Franc(BIF)&lt;/title&gt;
+         &lt;link&gt;http://bif.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://bif.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 198.02619 Burundi Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Canadian Dollar(CAD)&lt;/title&gt;
+         &lt;link&gt;http://cad.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://cad.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.13817 Canadian Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Chinese Yuan(CNY)&lt;/title&gt;
+         &lt;link&gt;http://cny.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://cny.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.80308 Chinese Yuan&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Cambodia Riel(KHR)&lt;/title&gt;
+         &lt;link&gt;http://khr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://khr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 522.35051 Cambodia Riel&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Cape Verde Escudo(CVE)&lt;/title&gt;
+         &lt;link&gt;http://cve.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://cve.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 10.29478 Cape Verde Escudo&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Cayman Islands Dollar(KYD)&lt;/title&gt;
+         &lt;link&gt;http://kyd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kyd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.10579 Cayman Islands Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/CFA Franc (BCEAO)(XOF)&lt;/title&gt;
+         &lt;link&gt;http://xof.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://xof.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 62.05896 CFA Franc (BCEAO)&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/CFA Franc (BEAC)(XAF)&lt;/title&gt;
+         &lt;link&gt;http://xaf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://xaf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 62.11108 CFA Franc (BEAC)&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Chilean Peso(CLP)&lt;/title&gt;
+         &lt;link&gt;http://clp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://clp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 70.97336 Chilean Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Colombian Peso(COP)&lt;/title&gt;
+         &lt;link&gt;http://cop.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://cop.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 243.38515 Colombian Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Comoros Franc(KMF)&lt;/title&gt;
+         &lt;link&gt;http://kmf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kmf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 46.58331 Comoros Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Costa Rica Colon(CRC)&lt;/title&gt;
+         &lt;link&gt;http://crc.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://crc.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 70.63149 Costa Rica Colon&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Croatian Kuna(HRK)&lt;/title&gt;
+         &lt;link&gt;http://hrk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://hrk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.71781 Croatian Kuna&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Cuban Peso(CUP)&lt;/title&gt;
+         &lt;link&gt;http://cup.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://cup.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.12901 Cuban Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Czech Koruna(CZK)&lt;/title&gt;
+         &lt;link&gt;http://czk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://czk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2.59879 Czech Koruna&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Euro(EUR)&lt;/title&gt;
+         &lt;link&gt;http://eur.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://eur.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.09473 Euro&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Danish Krone(DKK)&lt;/title&gt;
+         &lt;link&gt;http://dkk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://dkk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.70625 Danish Krone&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Djibouti Franc(DJF)&lt;/title&gt;
+         &lt;link&gt;http://djf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://djf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 23.47933 Djibouti Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Dominican Peso(DOP)&lt;/title&gt;
+         &lt;link&gt;http://dop.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://dop.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 5.60859 Dominican Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/East Caribbean Dollar(XCD)&lt;/title&gt;
+         &lt;link&gt;http://xcd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://xcd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.34832 East Caribbean Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Egyptian Pound(EGP)&lt;/title&gt;
+         &lt;link&gt;http://egp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://egp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.92232 Egyptian Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/El Salvador Colon(SVC)&lt;/title&gt;
+         &lt;link&gt;http://svc.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://svc.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.12843 El Salvador Colon&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Estonian Kroon(EEK)&lt;/title&gt;
+         &lt;link&gt;http://eek.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://eek.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.4822 Estonian Kroon&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Ethiopian Birr(ETB)&lt;/title&gt;
+         &lt;link&gt;http://etb.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://etb.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2.53213 Ethiopian Birr&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Falkland Islands Pound(FKP)&lt;/title&gt;
+         &lt;link&gt;http://fkp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://fkp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.07595 Falkland Islands Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Fiji Dollar(FJD)&lt;/title&gt;
+         &lt;link&gt;http://fjd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://fjd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.23508 Fiji Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Hong Kong Dollar(HKD)&lt;/title&gt;
+         &lt;link&gt;http://hkd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://hkd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1 Hong Kong Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Indonesian Rupiah(IDR)&lt;/title&gt;
+         &lt;link&gt;http://idr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://idr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1560.34316 Indonesian Rupiah&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Indian Rupee(INR)&lt;/title&gt;
+         &lt;link&gt;http://inr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://inr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 7.76366 Indian Rupee&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Gambian Dalasi(GMD)&lt;/title&gt;
+         &lt;link&gt;http://gmd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://gmd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 5.14868 Gambian Dalasi&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Guatemala Quetzal(GTQ)&lt;/title&gt;
+         &lt;link&gt;http://gtq.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://gtq.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.00529 Guatemala Quetzal&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Guinea Franc(GNF)&lt;/title&gt;
+         &lt;link&gt;http://gnf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://gnf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 881.11978 Guinea Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Guyana Dollar(GYD)&lt;/title&gt;
+         &lt;link&gt;http://gyd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://gyd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 26.5368 Guyana Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Haiti Gourde(HTG)&lt;/title&gt;
+         &lt;link&gt;http://htg.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://htg.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 5.84855 Haiti Gourde&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Honduras Lempira(HNL)&lt;/title&gt;
+         &lt;link&gt;http://hnl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://hnl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2.7027 Honduras Lempira&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Hungarian Forint(HUF)&lt;/title&gt;
+         &lt;link&gt;http://huf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://huf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 29.10598 Hungarian Forint&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Iceland Krona(ISK)&lt;/title&gt;
+         &lt;link&gt;http://isk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://isk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 14.62685 Iceland Krona&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Iran Rial(IRR)&lt;/title&gt;
+         &lt;link&gt;http://irr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://irr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 3306.84384 Iran Rial&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Iraqi Dinar(IQD)&lt;/title&gt;
+         &lt;link&gt;http://iqd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://iqd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 150.22899 Iraqi Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Israeli Shekel(ILS)&lt;/title&gt;
+         &lt;link&gt;http://ils.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ils.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.44259 Israeli Shekel&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Japanese Yen(JPY)&lt;/title&gt;
+         &lt;link&gt;http://jpy.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://jpy.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 13.12856 Japanese Yen&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Jamaican Dollar(JMD)&lt;/title&gt;
+         &lt;link&gt;http://jmd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://jmd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 14.40366 Jamaican Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Jordanian Dinar(JOD)&lt;/title&gt;
+         &lt;link&gt;http://jod.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://jod.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.09138 Jordanian Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Kazakhstan Tenge(KZT)&lt;/title&gt;
+         &lt;link&gt;http://kzt.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kzt.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 23.67671 Kazakhstan Tenge&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Kenyan Shilling(KES)&lt;/title&gt;
+         &lt;link&gt;http://kes.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kes.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 11.32039 Kenyan Shilling&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Korean Won(KRW)&lt;/title&gt;
+         &lt;link&gt;http://krw.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://krw.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 131.10559 Korean Won&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Kuwaiti Dinar(KWD)&lt;/title&gt;
+         &lt;link&gt;http://kwd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kwd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.03637 Kuwaiti Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Lao Kip(LAK)&lt;/title&gt;
+         &lt;link&gt;http://lak.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lak.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1038.70219 Lao Kip&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Latvian Lat(LVL)&lt;/title&gt;
+         &lt;link&gt;http://lvl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lvl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.06646 Latvian Lat&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Lebanese Pound(LBP)&lt;/title&gt;
+         &lt;link&gt;http://lbp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lbp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 194.62362 Lebanese Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Lesotho Loti(LSL)&lt;/title&gt;
+         &lt;link&gt;http://lsl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lsl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.36683 Lesotho Loti&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Liberian Dollar(LRD)&lt;/title&gt;
+         &lt;link&gt;http://lrd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lrd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 11.67516 Liberian Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Libyan Dinar(LYD)&lt;/title&gt;
+         &lt;link&gt;http://lyd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lyd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.1561 Libyan Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Lithuanian Lita(LTL)&lt;/title&gt;
+         &lt;link&gt;http://ltl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ltl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.3271 Lithuanian Lita&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Macau Pataca(MOP)&lt;/title&gt;
+         &lt;link&gt;http://mop.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mop.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.02999 Macau Pataca&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Macedonian Denar(MKD)&lt;/title&gt;
+         &lt;link&gt;http://mkd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mkd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 5.8279 Macedonian Denar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Malawi Kwacha(MWK)&lt;/title&gt;
+         &lt;link&gt;http://mwk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mwk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 51.0585 Malawi Kwacha&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Malaysian Ringgit(MYR)&lt;/title&gt;
+         &lt;link&gt;http://myr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://myr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.41518 Malaysian Ringgit&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Maldives Rufiyaa(MVR)&lt;/title&gt;
+         &lt;link&gt;http://mvr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mvr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.988 Maldives Rufiyaa&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Mauritania Ougulya(MRO)&lt;/title&gt;
+         &lt;link&gt;http://mro.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mro.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 37.47662 Mauritania Ougulya&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Mauritius Rupee(MUR)&lt;/title&gt;
+         &lt;link&gt;http://mur.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mur.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 3.91537 Mauritius Rupee&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Mexican Peso(MXN)&lt;/title&gt;
+         &lt;link&gt;http://mxn.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mxn.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.67966 Mexican Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Moldovan Leu(MDL)&lt;/title&gt;
+         &lt;link&gt;http://mdl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mdl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.80288 Moldovan Leu&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Mongolian Tugrik(MNT)&lt;/title&gt;
+         &lt;link&gt;http://mnt.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mnt.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 235.76082 Mongolian Tugrik&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Moroccan Dirham(MAD)&lt;/title&gt;
+         &lt;link&gt;http://mad.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mad.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.06168 Moroccan Dirham&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Myanmar Kyat(MMK)&lt;/title&gt;
+         &lt;link&gt;http://mmk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://mmk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 125.91111 Myanmar Kyat&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Namibian Dollar(NAD)&lt;/title&gt;
+         &lt;link&gt;http://nad.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://nad.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.36387 Namibian Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Nepalese Rupee(NPR)&lt;/title&gt;
+         &lt;link&gt;http://npr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://npr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 12.41566 Nepalese Rupee&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Neth Antilles Guilder(ANG)&lt;/title&gt;
+         &lt;link&gt;http://ang.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ang.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.23092 Neth Antilles Guilder&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/New Zealand Dollar(NZD)&lt;/title&gt;
+         &lt;link&gt;http://nzd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://nzd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.14712 New Zealand Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Nicaragua Cordoba(NIO)&lt;/title&gt;
+         &lt;link&gt;http://nio.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://nio.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 3.3458 Nicaragua Cordoba&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Nigerian Naira(NGN)&lt;/title&gt;
+         &lt;link&gt;http://ngn.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ngn.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 20.99207 Nigerian Naira&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/North Korean Won(KPW)&lt;/title&gt;
+         &lt;link&gt;http://kpw.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kpw.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 116.10656 North Korean Won&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Norwegian Krone(NOK)&lt;/title&gt;
+         &lt;link&gt;http://nok.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://nok.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.79047 Norwegian Krone&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Omani Rial(OMR)&lt;/title&gt;
+         &lt;link&gt;http://omr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://omr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.04967 Omani Rial&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Pacific Franc(XPF)&lt;/title&gt;
+         &lt;link&gt;http://xpf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://xpf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 11.30104 Pacific Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Pakistani Rupee(PKR)&lt;/title&gt;
+         &lt;link&gt;http://pkr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://pkr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 12.74205 Pakistani Rupee&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Panama Balboa(PAB)&lt;/title&gt;
+         &lt;link&gt;http://pab.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://pab.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.12901 Panama Balboa&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Papua New Guinea Kina(PGK)&lt;/title&gt;
+         &lt;link&gt;http://pgk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://pgk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.31247 Papua New Guinea Kina&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Paraguayan Guarani(PYG)&lt;/title&gt;
+         &lt;link&gt;http://pyg.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://pyg.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 566.84511 Paraguayan Guarani&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Peruvian Nuevo Sol(PEN)&lt;/title&gt;
+         &lt;link&gt;http://pen.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://pen.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.36212 Peruvian Nuevo Sol&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Philippine Peso(PHP)&lt;/title&gt;
+         &lt;link&gt;http://php.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://php.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 5.66084 Philippine Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Polish Zloty(PLN)&lt;/title&gt;
+         &lt;link&gt;http://pln.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://pln.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.39223 Polish Zloty&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Qatar Rial(QAR)&lt;/title&gt;
+         &lt;link&gt;http://qar.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://qar.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.46965 Qatar Rial&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Romanian New Leu(RON)&lt;/title&gt;
+         &lt;link&gt;http://ron.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ron.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.41531 Romanian New Leu&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Russian Rouble(RUB)&lt;/title&gt;
+         &lt;link&gt;http://rub.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://rub.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 4.354 Russian Rouble&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Rwanda Franc(RWF)&lt;/title&gt;
+         &lt;link&gt;http://rwf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://rwf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 87.46694 Rwanda Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Swiss Franc(CHF)&lt;/title&gt;
+         &lt;link&gt;http://chf.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://chf.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.11526 Swiss Franc&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Samoa Tala(WST)&lt;/title&gt;
+         &lt;link&gt;http://wst.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://wst.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.29661 Samoa Tala&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Sao Tome Dobra(STD)&lt;/title&gt;
+         &lt;link&gt;http://std.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://std.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2320.19609 Sao Tome Dobra&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Saudi Arabian Riyal(SAR)&lt;/title&gt;
+         &lt;link&gt;http://sar.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sar.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.48391 Saudi Arabian Riyal&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Seychelles Rupee(SCR)&lt;/title&gt;
+         &lt;link&gt;http://scr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://scr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.58483 Seychelles Rupee&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Sierra Leone Leone(SLL)&lt;/title&gt;
+         &lt;link&gt;http://sll.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sll.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 559.89163 Sierra Leone Leone&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Singapore Dollar(SGD)&lt;/title&gt;
+         &lt;link&gt;http://sgd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sgd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.16118 Singapore Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Slovak Koruna(SKK)&lt;/title&gt;
+         &lt;link&gt;http://skk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://skk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2.86474 Slovak Koruna&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Solomon Islands Dollar(SBD)&lt;/title&gt;
+         &lt;link&gt;http://sbd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sbd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.93155 Solomon Islands Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Somali Shilling(SOS)&lt;/title&gt;
+         &lt;link&gt;http://sos.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sos.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 122.81494 Somali Shilling&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/South African Rand(ZAR)&lt;/title&gt;
+         &lt;link&gt;http://zar.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://zar.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.36877 South African Rand&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Sri Lanka Rupee(LKR)&lt;/title&gt;
+         &lt;link&gt;http://lkr.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://lkr.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 16.81287 Sri Lanka Rupee&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/St Helena Pound(SHP)&lt;/title&gt;
+         &lt;link&gt;http://shp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://shp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.07595 St Helena Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Sudanese Pound(SDG)&lt;/title&gt;
+         &lt;link&gt;http://sdg.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sdg.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.73394 Sudanese Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Swaziland Lilageni(SZL)&lt;/title&gt;
+         &lt;link&gt;http://szl.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://szl.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.3618 Swaziland Lilageni&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Swedish Krona(SEK)&lt;/title&gt;
+         &lt;link&gt;http://sek.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://sek.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.8687 Swedish Krona&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Syrian Pound(SYP)&lt;/title&gt;
+         &lt;link&gt;http://syp.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://syp.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 19.28659 Syrian Pound&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/United States Dollar(USD)&lt;/title&gt;
+         &lt;link&gt;http://usd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://usd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.12901 United States Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Thai Baht(THB)&lt;/title&gt;
+         &lt;link&gt;http://thb.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://thb.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 4.18951 Thai Baht&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Turkish Lira(TRY)&lt;/title&gt;
+         &lt;link&gt;http://try.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://try.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.27481 Turkish Lira&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Taiwan Dollar(TWD)&lt;/title&gt;
+         &lt;link&gt;http://twd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://twd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 3.86119 Taiwan Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Tanzanian Shilling(TZS)&lt;/title&gt;
+         &lt;link&gt;http://tzs.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://tzs.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 215.8937 Tanzanian Shilling&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Tonga Pa'ang(TOP)&lt;/title&gt;
+         &lt;link&gt;http://top.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://top.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.23848 Tonga Pa'ang&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Trinidad Tobago Dollar(TTD)&lt;/title&gt;
+         &lt;link&gt;http://ttd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ttd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.8301 Trinidad Tobago Dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Tunisian Dinar(TND)&lt;/title&gt;
+         &lt;link&gt;http://tnd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://tnd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.2168 Tunisian Dinar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/UAE Dirham(AED)&lt;/title&gt;
+         &lt;link&gt;http://aed.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://aed.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.47383 UAE Dirham&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Ugandan Shilling(UGX)&lt;/title&gt;
+         &lt;link&gt;http://ugx.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ugx.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 335.80597 Ugandan Shilling&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Ukraine Hryvnia(UAH)&lt;/title&gt;
+         &lt;link&gt;http://uah.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://uah.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 1.5335 Ukraine Hryvnia&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Uruguayan New Peso(UYU)&lt;/title&gt;
+         &lt;link&gt;http://uyu.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://uyu.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2.95556 Uruguayan New Peso&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Vanuatu Vatu(VUV)&lt;/title&gt;
+         &lt;link&gt;http://vuv.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://vuv.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 12.04283 Vanuatu Vatu&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Vietnam Dong(VND)&lt;/title&gt;
+         &lt;link&gt;http://vnd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://vnd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 2748.50029 Vietnam Dong&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Yemen Riyal(YER)&lt;/title&gt;
+         &lt;link&gt;http://yer.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://yer.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 27.72431 Yemen Riyal&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Zambian Kwacha(ZMK)&lt;/title&gt;
+         &lt;link&gt;http://zmk.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://zmk.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 669.48333 Zambian Kwacha&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Zimbabwe dollar(ZWD)&lt;/title&gt;
+         &lt;link&gt;http://zwd.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://zwd.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 46.68774 Zimbabwe dollar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Venezuelan Bolivar(VEF)&lt;/title&gt;
+         &lt;link&gt;http://vef.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://vef.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.81178 Venezuelan Bolivar&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Uzbekistan Sum(UZS)&lt;/title&gt;
+         &lt;link&gt;http://uzs.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://uzs.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 296.2562 Uzbekistan Sum&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Kyrgyzstan Som(KGS)&lt;/title&gt;
+         &lt;link&gt;http://kgs.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://kgs.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 6.71585 Kyrgyzstan Som&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Hong Kong Dollar(HKD)/Ghanaian Cedi(GHS)&lt;/title&gt;
+         &lt;link&gt;http://ghs.fxexchangerate.com/&lt;/link&gt;
+         &lt;guid&gt;http://ghs.fxexchangerate.com/&lt;/guid&gt;
+         &lt;pubDate&gt;Thu Jun 26 2014 8:46:11 UTC &lt;/pubDate&gt;
+         &lt;description&gt;1 Hong Kong Dollar = 0.38767 Ghanaian Cedi&lt;/description&gt;
+         &lt;category&gt;Hong Kong Dollar&lt;/category&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>forexRatesList</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//rss/channel/item</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>title</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>forexRatesList</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>pubDate</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//pubDate</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>forexRatesList</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>desc</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//description</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>forexRatesList</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>category</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//category</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>forexRatesList</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://$CurrCode.fxexchangerate.com/rss.xml</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

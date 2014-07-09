@@ -1,0 +1,112 @@
+<application desc="" id="MyOrganizer" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="activateUser" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://localhost:8080/organizer/services/LoginServiceEndpoint"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:end=&quot;http://endpoints.webservice.bs5lnd.org&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;end:activateUser&gt;&lt;end:userid&gt;niranjan&lt;/end:userid&gt;&lt;end:secretcode&gt;92454&lt;/end:secretcode&gt;&lt;/end:activateUser&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="userid" sms-name="" src="request" value=""/>
+               <param datatype="string" encode="true" name="secretcode" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="id" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="response" sms-name="" src="//soapenv:Envelope/soapenv:Body/activateUserResponse/activateUserReturn" srcformatvalue="" target="response"/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="updateProfile" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://niranjan:8080/LoginWebServiceEndpoint/services/LoginServiceEndpoint"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:end=&quot;http://endpoints.webservice.bs5lnd.org&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;end:validateLogin&gt;&lt;end:userid&gt;niranjan&lt;/end:userid&gt;&lt;end:password&gt;niranjan&lt;/end:password&gt;&lt;/end:validateLogin&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="alias" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="dob" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="doj" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="address" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="fullName" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="emailId" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="validateLogin" passwordencrypted="true" smscode="" smsenabled="false" type="soapserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://env-6190797.j.layershift.co.uk/organizer/services/LoginServiceEndpoint"/>
+            <config-param name="soapAction" value=""/>
+            <config-param name="userid" value=""/>
+            <config-param name="soap-version" value="1.1"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="true"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <template-param name="message" value="&lt;soapenv:Envelope xmlns:end=&quot;http://endpoints.webservice.bs5lnd.org&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;end:validateLogin&gt;&lt;end:userid&gt;niranjan&lt;/end:userid&gt;&lt;end:password&gt;niranjan&lt;/end:password&gt;&lt;/end:validateLogin&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;">
+               <param datatype="string" encode="true" name="userid" sms-name="" src="" value=""/>
+               <param datatype="string" encode="true" name="password" sms-name="" src="" value=""/>
+            </template-param>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="result" sms-name="" src="//soapenv:Envelope/soapenv:Body/validateLoginResponse/validateLoginReturn" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" srcformatvalue="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" srcformatvalue="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>

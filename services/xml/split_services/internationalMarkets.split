@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>internationalMarkets</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;!--  generator=Moneycontrol XML FEED Generator  --&gt;
+&lt;rss version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;Moneycontrol Global Markets&lt;/title&gt;
+      &lt;description&gt;Global Markets from Moneycontrol.com&lt;/description&gt;
+      &lt;link&gt;http://www.moneycontrol.com&lt;/link&gt;
+      &lt;lastBuildDate&gt;Thu, 26 Jun 2014 15:00:43 +0530&lt;/lastBuildDate&gt;
+      &lt;generator&gt;Moneycontrol.com&lt;/generator&gt;
+      &lt;image&gt;
+         &lt;url&gt;http://img1.moneycontrol.com/images/top2010/moneycontrol_logo.jpg&lt;/url&gt;
+         &lt;title&gt;Moneycontrol Logo&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com&lt;/link&gt;
+         &lt;description&gt;Feed provided by Moneycontrol.&lt;/description&gt;
+      &lt;/image&gt;
+      &lt;item&gt;
+         &lt;title&gt;Asian shares gain, taking a cue from Wall Street overnight&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/asian-shares-gain-takingcuewall-street-overnight_1112502.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="Asian shares gain, taking a cue from Wall Street overnight" title="Asian shares gain, taking a cue from Wall Street overnight" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; Asian shares gain, taking a cue from Wall Street overnight&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 26 Jun 2014 09:39:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/asian-shares-gain-takingcuewall-street-overnight_1112502.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;It's Asian bonds, not equities, that are too rich&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/asian-markets/its-asian-bonds-not-equities-thattoo-rich_1112367.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/b/bonds-200.jpg" alt="It's Asian bonds, not equities, that are too rich" title="It's Asian bonds, not equities, that are too rich" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; "It's a bubble in caution," said Markus Rosgen, Asian equity strategist at Citi. &lt;/description&gt;
+         &lt;pubDate&gt;Thu, 26 Jun 2014 09:29:02 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/asian-markets/its-asian-bonds-not-equities-thattoo-rich_1112367.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Asian markets trade higher; Hang Seng, Nikkei gain&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/asian-markets/asian-markets-trade-higher-hang-seng-nikkei-gain_1112327.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/a/asian-markets-200.jpg" alt="Asian markets trade higher; Hang Seng, Nikkei gain" title="Asian markets trade higher; Hang Seng, Nikkei gain" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; Asian markets were trading higher on Thursday. Hang Seng and Shanghai Composite were up 0.5 percent.&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 26 Jun 2014 08:04:45 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/asian-markets/asian-markets-trade-higher-hang-seng-nikkei-gain_1112327.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Wall Street gains after SC ruling favours broadcasters&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/wall-street-gains-after-sc-ruling-favours-broadcasters_1112282.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/w/Wall_Street1_200.jpg" alt="Wall Street gains after SC ruling favours broadcasters" title="Wall Street gains after SC ruling favours broadcasters" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; The Dow Jones industrial average rose 49.38 points or 0.29 percent, to 16,867.51. The SP 500 gained 9.55 points or 0.49 percent, to 1,959.53. The Nasdaq Composite added 29.40 points or 0.68 percent, to 4,379.76.&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 26 Jun 2014 07:52:41 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/wall-street-gains-after-sc-ruling-favours-broadcasters_1112282.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;U.S. durable goods orders fall 1% in May, core orders down 0.1%&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/us-durable-goods-orders-fall-1may-core-orders-down-01_1112249.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="U.S. durable goods orders fall 1% in May, core orders down 0.1%" title="U.S. durable goods orders fall 1% in May, core orders down 0.1%" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; U.S. durable goods orders fall 1% in May, core orders down 0.1%&lt;/description&gt;
+         &lt;pubDate&gt;Wed, 25 Jun 2014 18:06:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/us-durable-goods-orders-fall-1may-core-orders-down-01_1112249.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;U.S. futures steady with eyes on GDP data; Dow Jones up 0.03%&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/us-futures-steadyeyesgdp-data-dow-jones003_1111879.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="U.S. futures steady with eyes on GDP data; Dow Jones up 0.03%" title="U.S. futures steady with eyes on GDP data; Dow Jones up 0.03%" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; U.S. futures steady with eyes on GDP data; Dow Jones up 0.03%&lt;/description&gt;
+         &lt;pubDate&gt;Wed, 25 Jun 2014 16:19:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/us-futures-steadyeyesgdp-data-dow-jones003_1111879.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;U.K. CBI realized sales fall to 7-month low in June&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/uk-cbi-realized-sales-fall-to-7-month-lowjune_1111881.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="U.K. CBI realized sales fall to 7-month low in June" title="U.K. CBI realized sales fall to 7-month low in June" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; U.K. CBI realized sales fall to 7-month low in June&lt;/description&gt;
+         &lt;pubDate&gt;Wed, 25 Jun 2014 15:33:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/uk-cbi-realized-sales-fall-to-7-month-lowjune_1111881.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Asia stocks end lower; Nikkei falls 0.7%&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/asia-stocks-end-lower-nikkei-falls-07_1111886.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="Asia stocks end lower; Nikkei falls 0.7%" title="Asia stocks end lower; Nikkei falls 0.7%" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; Asia stocks end lower; Nikkei falls 0.7%&lt;/description&gt;
+         &lt;pubDate&gt;Wed, 25 Jun 2014 12:32:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/asia-stocks-end-lower-nikkei-falls-07_1111886.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Asian markets weak; Nikkei, Shanghai Composite slip&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/asian-markets/asian-markets-weak-nikkei-shanghai-composite-slip_1111272.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/a/asian-mkt-200.jpg" alt="Asian markets weak; Nikkei, Shanghai Composite slip" title="Asian markets weak; Nikkei, Shanghai Composite slip" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; Asian markets were trading mostly lower on Wednesday. Shanghai Composite, Nikkei and Seoul Composite were trading weak.&lt;/description&gt;
+         &lt;pubDate&gt;Wed, 25 Jun 2014 08:11:07 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/asian-markets/asian-markets-weak-nikkei-shanghai-composite-slip_1111272.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Wall Street ends down as Iraq concerns rise&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/wall-street-ends-down-as-iraq-concerns-rise_1111234.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/w/Wall-Street-new-200.jpg" alt="Wall Street ends down as Iraq concerns rise" title="Wall Street ends down as Iraq concerns rise" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; The SP 500 climbed to 1,968.17, another intraday record, and then turned lower around midday. The benchmark index had rallied for six straight days before ending Monday's session slightly lower. On Tuesday, the Dow suffered its biggest drop since May 20.&lt;/description&gt;
+         &lt;pubDate&gt;Wed, 25 Jun 2014 07:54:22 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/wall-street-ends-down-as-iraq-concerns-rise_1111234.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;U.K. BBA mortgage approvals fall to 9-month low in May&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/uk-bba-mortgage-approvals-fall-to-9-month-lowmay_1110571.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="U.K. BBA mortgage approvals fall to 9-month low in May" title="U.K. BBA mortgage approvals fall to 9-month low in May" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; U.K. BBA mortgage approvals fall to 9-month low in May&lt;/description&gt;
+         &lt;pubDate&gt;Tue, 24 Jun 2014 14:03:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/uk-bba-mortgage-approvals-fall-to-9-month-lowmay_1110571.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;European stocks edge higher ahead of Ifo report; Dax up 0.14%&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/european-stocks-edge-higher-aheadifo-report-dax014_1110574.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="European stocks edge higher ahead of Ifo report; Dax up 0.14%" title="European stocks edge higher ahead of Ifo report; Dax up 0.14%" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; European stocks edge higher ahead of Ifo report; Dax up 0.14%&lt;/description&gt;
+         &lt;pubDate&gt;Tue, 24 Jun 2014 13:08:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/european-stocks-edge-higher-aheadifo-report-dax014_1110574.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Asian markets mixed; Straits Times flat, Hang Seng up&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/asian-markets/asian-markets-mixed-straits-times-flat-hang-seng-up_1110084.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/a/asian-mkts-plungs-200.jpg" alt="Asian markets mixed; Straits Times flat, Hang Seng up" title="Asian markets mixed; Straits Times flat, Hang Seng up" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; Asian markets were trading mixed on Tuesday. Hang Seng rose 0.32 percent and Nikkei shed 0.50 percent.&lt;/description&gt;
+         &lt;pubDate&gt;Tue, 24 Jun 2014 08:07:11 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/asian-markets/asian-markets-mixed-straits-times-flat-hang-seng-up_1110084.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Wall Street ends flat after six-day rally, energy rises&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/wall-street-ends-flat-after-six-day-rally-energy-rises_1110042.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/2014/w/Wall_Street1_200.jpg" alt="Wall Street ends flat after six-day rally, energy rises" title="Wall Street ends flat after six-day rally, energy rises" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; US May existing home sales rose at more than twice the rate of growth expected, while a preliminary read on June manufacturing hit its highest since May 2010.&lt;/description&gt;
+         &lt;pubDate&gt;Tue, 24 Jun 2014 07:53:50 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/wall-street-ends-flat-after-six-day-rally-energy-rises_1110042.html&lt;/guid&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;Investing.com sentiment index report - week ending June 20&lt;/title&gt;
+         &lt;link&gt;http://www.moneycontrol.com/news/international-markets/investingcom-sentiment-index-report-week-ending-june-20_1109835.html&lt;/link&gt;
+         &lt;description&gt;&amp;lt;img src="http://www.moneycontrol.com/news_image_files/investing2.jpg" alt="Investing.com sentiment index report - week ending June 20" title="Investing.com sentiment index report - week ending June 20" border="0" width="75" height="75" align=" left" hspace="5"/&amp;gt; Investing.com sentiment index report - week ending June 20&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 23 Jun 2014 15:05:00 +0530&lt;/pubDate&gt;
+         &lt;guid&gt;http://www.moneycontrol.com/news/international-markets/investingcom-sentiment-index-report-week-ending-june-20_1109835.html&lt;/guid&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>items</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//rss/channel/item</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>title</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>items</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>link</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//link</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>items</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>desc</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//description</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>items</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>date</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//pubDate</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>items</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://www.moneycontrol.com/rss/internationalmarkets.xml</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

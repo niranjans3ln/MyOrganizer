@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>forexRateCurrencyList</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;table&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Afghanistan afghani&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AFA&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Albanian lek&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ALL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Algerian dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;DZD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Angolan kwanza reajustado&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AOR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Argentine peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ARS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Armenian dram&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AMD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Aruban guilder&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AWG&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Australian dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AUD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Azerbaijanian new manat&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AZN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bahamian dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BSD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bahraini dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BHD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bangladeshi taka&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BDT&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Barbados dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BBD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Belarusian ruble&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BYR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Belize dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BZD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bermudian dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BMD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bhutan ngultrum&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BTN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bolivian boliviano&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BOB&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Botswana pula&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BWP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Brazilian real&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BRL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;British pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GBP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Brunei dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BND&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Bulgarian lev&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BGN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Burundi franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;BIF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Cambodian riel&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KHR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Canadian dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CAD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Cape Verde escudo&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CVE&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Cayman Islands dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KYD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;CFA franc BCEAO&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XOF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;CFA franc BEAC&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XAF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;CFP franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XPF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Chilean peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CLP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Chinese yuan renminbi&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CNY&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Colombian peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;COP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Comoros franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KMF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Congolese franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CDF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Costa Rican colon&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CRC&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Croatian kuna&lt;/td1&gt;
+      &lt;td2 width="41"&gt;HRK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Cuban peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CUP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Czech koruna&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CZK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Danish krone&lt;/td1&gt;
+      &lt;td2 width="41"&gt;DKK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Djibouti franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;DJF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Dominican peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;DOP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;East Caribbean dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XCD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Egyptian pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;EGP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;El Salvador colon&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SVC&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Eritrean nakfa&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ERN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Estonian kroon&lt;/td1&gt;
+      &lt;td2 width="41"&gt;EEK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Ethiopian birr&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ETB&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;EU euro&lt;/td1&gt;
+      &lt;td2 width="41"&gt;EUR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Falkland Islands pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;FKP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Fiji dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;FJD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Gambian dalasi&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GMD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Georgian lari&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GEL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Ghanaian new cedi&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GHS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Gibraltar pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GIP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Gold (ounce)&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XAU&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Gold franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XFO&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Guatemalan quetzal&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GTQ&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Guinean franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GNF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Guyana dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;GYD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Haitian gourde&lt;/td1&gt;
+      &lt;td2 width="41"&gt;HTG&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Honduran lempira&lt;/td1&gt;
+      &lt;td2 width="41"&gt;HNL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Hong Kong SAR dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;HKD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Hungarian forint&lt;/td1&gt;
+      &lt;td2 width="41"&gt;HUF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Icelandic krona&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ISK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;IMF special drawing right&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XDR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Indian rupee&lt;/td1&gt;
+      &lt;td2 width="41"&gt;INR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Indonesian rupiah&lt;/td1&gt;
+      &lt;td2 width="41"&gt;IDR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Iranian rial&lt;/td1&gt;
+      &lt;td2 width="41"&gt;IRR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Iraqi dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;IQD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Israeli new shekel&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ILS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Jamaican dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;JMD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Japanese yen&lt;/td1&gt;
+      &lt;td2 width="41"&gt;JPY&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Jordanian dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;JOD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Kazakh tenge&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KZT&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Kenyan shilling&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KES&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Kuwaiti dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KWD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Kyrgyz som&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KGS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Lao kip&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LAK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Latvian lats&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LVL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Lebanese pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LBP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Lesotho loti&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LSL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Liberian dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LRD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Libyan dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LYD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Lithuanian litas&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LTL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Macao SAR pataca&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MOP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Macedonian denar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MKD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Malagasy ariary&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MGA&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Malawi kwacha&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MWK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Malaysian ringgit&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MYR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Maldivian rufiyaa&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MVR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Mauritanian ouguiya&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MRO&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Mauritius rupee&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MUR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Mexican peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MXN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Moldovan leu&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MDL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Mongolian tugrik&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MNT&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Moroccan dirham&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MAD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Mozambique new metical&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MZN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Myanmar kyat&lt;/td1&gt;
+      &lt;td2 width="41"&gt;MMK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Namibian dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;NAD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Nepalese rupee&lt;/td1&gt;
+      &lt;td2 width="41"&gt;NPR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Netherlands Antillian guilder&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ANG&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;New Zealand dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;NZD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Nicaraguan cordoba oro&lt;/td1&gt;
+      &lt;td2 width="41"&gt;NIO&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Nigerian naira&lt;/td1&gt;
+      &lt;td2 width="41"&gt;NGN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;North Korean won&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KPW&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Norwegian krone&lt;/td1&gt;
+      &lt;td2 width="41"&gt;NOK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Omani rial&lt;/td1&gt;
+      &lt;td2 width="41"&gt;OMR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Pakistani rupee&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PKR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Palladium (ounce)&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XPD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Panamanian balboa&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PAB&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Papua New Guinea kina&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PGK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Paraguayan guarani&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PYG&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Peruvian nuevo sol&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PEN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Philippine peso&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PHP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Platinum (ounce)&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XPT&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Polish zloty&lt;/td1&gt;
+      &lt;td2 width="41"&gt;PLN&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Qatari rial&lt;/td1&gt;
+      &lt;td2 width="41"&gt;QAR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Romanian new leu&lt;/td1&gt;
+      &lt;td2 width="41"&gt;RON&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Russian ruble&lt;/td1&gt;
+      &lt;td2 width="41"&gt;RUB&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Rwandan franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;RWF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Saint Helena pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SHP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Samoan tala&lt;/td1&gt;
+      &lt;td2 width="41"&gt;WST&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Sao Tome and Principe dobra&lt;/td1&gt;
+      &lt;td2 width="41"&gt;STD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Saudi riyal&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SAR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Serbian dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;RSD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Seychelles rupee&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SCR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Sierra Leone leone&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SLL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Silver (ounce)&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XAG&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Singapore dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SGD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Solomon Islands dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SBD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Somali shilling&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SOS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;South African rand&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ZAR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;South Korean won&lt;/td1&gt;
+      &lt;td2 width="41"&gt;KRW&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Sri Lanka rupee&lt;/td1&gt;
+      &lt;td2 width="41"&gt;LKR&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Sudanese pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SDG&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Suriname dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SRD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Swaziland lilangeni&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SZL&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Swedish krona&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SEK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Swiss franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;CHF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Syrian pound&lt;/td1&gt;
+      &lt;td2 width="41"&gt;SYP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Taiwan New dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TWD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Tajik somoni&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TJS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Tanzanian shilling&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TZS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Thai baht&lt;/td1&gt;
+      &lt;td2 width="41"&gt;THB&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Tongan pa'anga&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TOP&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Trinidad and Tobago dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TTD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Tunisian dinar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TND&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Turkish lira&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TRY&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Turkmen new manat&lt;/td1&gt;
+      &lt;td2 width="41"&gt;TMT&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;UAE dirham&lt;/td1&gt;
+      &lt;td2 width="41"&gt;AED&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Uganda new shilling&lt;/td1&gt;
+      &lt;td2 width="41"&gt;UGX&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;UIC franc&lt;/td1&gt;
+      &lt;td2 width="41"&gt;XFU&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Ukrainian hryvnia&lt;/td1&gt;
+      &lt;td2 width="41"&gt;UAH&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Uruguayan peso uruguayo&lt;/td1&gt;
+      &lt;td2 width="41"&gt;UYU&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;US dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;USD&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Uzbekistani sum&lt;/td1&gt;
+      &lt;td2 width="41"&gt;UZS&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Vanuatu vatu&lt;/td1&gt;
+      &lt;td2 width="41"&gt;VUV&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Venezuelan bolivar fuerte&lt;/td1&gt;
+      &lt;td2 width="41"&gt;VEF&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Vietnamese dong&lt;/td1&gt;
+      &lt;td2 width="41"&gt;VND&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Yemeni rial&lt;/td1&gt;
+      &lt;td2 width="41"&gt;YER&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Zambian kwacha&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ZMK&lt;/td2&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td1 width="194"&gt;Zimbabwe dollar&lt;/td1&gt;
+      &lt;td2 width="41"&gt;ZWL&lt;/td2&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currList</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//table/tr</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currName</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//td1</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>currList</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currCode</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//td2</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>currList</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>https://docs.google.com/uc?authuser=0&amp;id=0Bwn2YGonWTyueFhkVlVSVTl5OG8&amp;export=download</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

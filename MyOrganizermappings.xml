@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="MyOrganizer" id="MyOrganizer">
+    <container type="dialog" id="hdrAllPages" displayname="Popup"/>
+    <container type="dialog" id="hdrCommon" displayname="Popup"/>
+    <container type="dialog" id="hdrLoginPage" displayname="Popup"/>
+    <container type="dialog" id="hdrWithLogo" displayname="Popup"/>
+    <container type="dialog" id="ftrAllPages" displayname="Popup"/>
+    <container type="dialog" id="ftrLoginPage" displayname="Popup"/>
+    <container type="form" id="frBlockingScreen" displayname="Form"/>
+    <container type="form" id="frBrowser" displayname="Form"/>
+    <container type="form" id="frBrowserNewUser" displayname="Form"/>
+    <container type="form" id="frContactDev" displayname="Form"/>
+    <container type="form" id="frCreateProfile" displayname="Form"/>
+    <container type="form" id="frExpenses" displayname="Form">
+        <component type="textbox2" id="txtEmailId" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frForex" displayname="Form">
+        <component type="combobox" id="cbxCurrCode" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frForgotPassword" displayname="Form">
+        <component type="textbox2" id="txtUserId" displayname="TextBox2"/>
+        <component type="textbox2" id="txtEmailId" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frHome" displayname="Form"/>
+    <container type="form" id="frLogin" displayname="Form">
+        <component type="textbox2" id="txtUserId" displayname="TextBox2"/>
+        <component type="textbox2" id="txtPassword" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frMail" displayname="Form"/>
+    <container type="form" id="frManageNotes" displayname="Form"/>
+    <container type="form" id="frMaps" displayname="Form">
+        <component type="map" id="map1624314468110931" displayname="Map">
+            <attributes value="AIzaSyAFNlKwCDNA6DCECCj5nKjowjUjuMSrMnY" platform="general" name="key" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frNews" displayname="Form"/>
+    <container type="form" id="frNote" displayname="Form">
+        <component type="calendar" id="cal" displayname="Calendar"/>
+        <component type="textbox2" id="txtSubject" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frNotesView" displayname="Form"/>
+    <container type="form" id="frNotesViewIndividual" displayname="Form"/>
+    <container type="form" id="frProfile" displayname="Form">
+        <component type="textbox2" id="txtAlias" displayname="TextBox2"/>
+        <component type="textbox2" id="txtFullName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtEmailId" displayname="TextBox2"/>
+        <component type="textbox2" id="txtAddress" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frProfileCreate" displayname="Form">
+        <component type="textbox2" id="txtUserId" displayname="TextBox2"/>
+        <component type="textbox2" id="txtSecretCode" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frSettings" displayname="Form"/>
+    <container type="form" id="frStock" displayname="Form"/>
+    <container type="form" id="frWeather" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmLogin" displayname="Form">
+        <component type="textbox2" id="txtLogin" displayname="TextBox2"/>
+        <component type="textbox2" id="txtPass" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmMainMenu" displayname="Form"/>
+    <container type="form" id="frmNewsHeadlines" displayname="Form"/>
+    <container type="form" id="frmSegmentDemo" displayname="Form"/>
+    <container type="dialog" id="popBlockingScreen" displayname="Popup"/>
+    <container type="dialog" id="popFailMessage" displayname="Popup"/>
+    <container type="dialog" id="popLogout" displayname="Popup"/>
+    <container type="dialog" id="popMenu" displayname="Popup"/>
+    <container type="dialog" id="popMessage" displayname="Popup"/>
+    <container type="dialog" id="popSuccessMessage" displayname="Popup"/>
+    <container type="dialog" id="popTheme" displayname="Popup"/>
+    <container type="dialog" id="popVersion" displayname="Popup"/>
+    <globalsequences/>
+    <skins/>
+</application>

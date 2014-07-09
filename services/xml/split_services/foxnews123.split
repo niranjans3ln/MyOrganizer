@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod>GET</httpmethod>
+        <id>foxnews123</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?&gt;
+
+&lt;?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?&gt;
+
+&lt;rss xmlns:fnc="http://www.foxnews.com/xmlfeed/fncModule#" version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;FOXNews.com&lt;/title&gt;
+      &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;description&gt;FOX News Channel - We Report. You Decide.&lt;/description&gt;
+      &lt;copyright&gt;Copyright 2014 FOX News Channel&lt;/copyright&gt;
+      &lt;managingEditor&gt;foxnewsonline@foxnews.com&lt;/managingEditor&gt;
+      &lt;language&gt;en-us&lt;/language&gt;
+      &lt;lastBuildDate&gt;Mon, 09 June 2014 06:38:19 EDT&lt;/lastBuildDate&gt;
+      &lt;webMaster&gt;foxnewsonline@foxnews.com&lt;/webMaster&gt;
+      &lt;image&gt;
+         &lt;url&gt;http://www.foxnews.com/images/headers/fnc_logo.gif&lt;/url&gt;
+         &lt;title&gt;FOXNews.com Live Bookmark&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;/image&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.foxnews.com/foxnews/latest" rel="self" type="application/rss+xml"/&gt;
+      &lt;feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="foxnews/latest"/&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Neighbors say Las Vegas shooters spoke of killing police, report says]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/09/las-vegas-shooting-officers-dead-possible-white-supremacists/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;b&gt;THE MAN AND WOMAN&lt;/b&gt;who killed two Las Vegas police officers &amp;#8212; Officers Alyn Beck, 42, far left, and Igor Soldo, 32 &amp;#8212; and one other person before killing themselves are described as a married couple in their 20s who possessed white supremacist paraphernalia, according to the Las Vegas Review-Journal.]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:34:25 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:34 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[IN THE LOOP?Report: WH let Bergdahls  in on video conferences]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/09/white-house-reportedly-let-bergdahl-parents-take-part-in-secure-video/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/09/digging-in-why-wont-obama-acknowledge-that-bergdahl-is-no-hero/"&gt;KURTZ: Why won't Obama acknowledge that Bergdahl is no hero?&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/08/sen-intel-feinstein-questions-wh-assertions-on-bergdahl-health-death-threat/"&gt;Feinstein questions White House claims about threat to Bergdahl&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/06/08/kerry-baloney-that-releasing-taliban-detainees-too-risky-to-us-troops/"&gt;Kerry says claim that releasing Taliban detainees too risky to US troops 'baloney'&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:34:25 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:34 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[BEIJING BARGAIN?  China billionaire snaps up taxpayer-backed car maker]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/09/china-billionaire-buys-fisker-in-bankruptcy-now-poised-to-sell-in-us-auto/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2014/04/04/energy-department-revives-auto-loan-program-despite-fisker-flop/"&gt;Energy Department revives auto loan program despite Fisker flop&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;a href="http://www.foxnews.com/politics/2013/11/23/taxpayers-on-hook-for-139-million-after-loan-to-failed-green-automaker-is-sold/"&gt;FLASHBACK: Taxpayers on hook for $139M after loan to failed green automaker is sold&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:34:25 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:34 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[HOME AT LAST Twins born holding hands leave hospital after month]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/health/2014/06/09/rare-set-mono-mono-twins-go-home-in-time-for-father-day/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description&gt;&lt;![CDATA[&lt;li&gt;&lt;b&gt;&lt;a href="http://video.foxnews.com/v/3611806952001/"&gt;VIDEO: 'Mono mono' twins home in time for Father's Day&lt;/a&gt;&lt;/b&gt;&lt;img src="/i/redes/icon-video.gif"&gt;&lt;/li&gt;]]&gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:34:25 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:34 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[ LEAVE IT AT HOME High school won't let grad wear military sash]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/08/maine-high-school-tells-grad-to-leave-army-sash-at-home/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:34:25 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:34 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[ Pakistani Taliban claim responsibility for airport attack that killed at least 18- British police release divisive Pakistan politician]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/09/5-killed-in-attack-on-pakistan-airport/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[#MarineHeldinMexico New legal team hones case- Lawmakers renew drive on heels of Bergdahl deal- Full Coverage: Marine's fight for freedom- OPINION: How to free our hero in 24 hours]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/06/seven-hours-at-border-marine-held-in-mexico-new-legal-team-hones-case/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Mom says daughter burned by school sunscreen ban]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/08/texas-mom-burning-mad-over-schools-sunscreen-ban/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Man gives dad Â57 Chevy, in promise made as 8-yr.-old]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/08/son-keeps-promise-made-when-was-8-57-chevy-for-his-57-year-old-dad/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[OPINION: Obama's radical agenda extends beyond EPA proposal]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/opinion/2014/06/09/obama-radical-agenda-for-america-extends-far-beyond-epa-proposal/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Milwaukee Catholic school parents blast archdiocese for giving Common Core its blessing]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/09/milwaukee-catholic-school-parents-blast-archdiocese-blessing-common-core/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[At least 4 dead after Indian students swept away by dam release]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/world/2014/06/09/at-least-4-dead-after-indian-students-swept-away-by-dam-release/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Damage reported as eight tornadoes hit Colorado]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/weather/2014/06/09/severe-storms-slam-parts-colorado/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Former UCLA basketball star's antitrust suit against NCAA gets day in court]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/sports/2014/06/09/former-ucla-basketball-star-antitrust-suit-against-ncaa-gets-day-in-court/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Tracy Morgan 'more responsive' after surgery, rep says]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/09/driver-in-tracy-morgan-accident-reportedly-asleep-at-wheel/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Hillary may wait until 2015 to announce bid- KURTZ: Hillary Q&amp;A -- how to unofficially run for president]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/08/hillary-could-wait-until-2015-to-announce-bid-mum-on-benghazi-testimony/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Afghanistan election: Will country 'turn the page,' or descend into chaos?- Afghanistan flooding kills at least 80]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/08/afghanistan-election-will-country-turn-page-or-descend-into-chaos/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Obama prepares to take executive action expanding student loan program]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/politics/2014/06/08/obama-prepares-to-take-executive-action-expanding-student-loan-program/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Heat rally past Spurs to even NBA Finals]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/sports/2014/06/09/heat-rally-past-spurs-tie-nba-finals-at-one-game-apiece/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Scientists explore replanting trees to help trap pollution]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/science/2014/06/09/scientists-researchers-explore-replanting-trees-to-help-catch-pollution/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Michigan 14-year-old finishes 40-mile trek while carrying brother on his back]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/us/2014/06/09/michigan-14-year-old-completes-40-mile-trek-while-carrying-brother-on-back/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Attorneys prepare lawsuits against GM over defective ignition switch recall]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/leisure/2014/06/09/attorneys-prepare-lawsuits-against-gm-over-handling-ignition-switch-recall/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[WORLD CUP COVERAGE:  Fox News Latino brings you the latest soccer news from Brazil]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://latino.foxnews.com/live-coverage/world-cup-brazil-2014&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 06:37:35 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;06:37 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[5 forgotten 1970's classics]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/leisure/2014/06/06/forgotten-170-classics/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Michael Moore's ugly divorce]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/08/director-michael-moore-enmeshed-in-vicious-divorce/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Nadal king of clay again]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/sports/2014/06/08/nadal-wins-th-french-open-tops-djokovic-in-final/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Emily Maynard ties the knot]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/08/former-bachelorette-emily-maynard-gets-married/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Oil drilling? ThereÂs an app]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://video.foxbusiness.com/v/3507597663001/drilling-for-oil-theres-an-app-for-that/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[New Miss USA crowned]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/09/black-belt-miss-nevada-kos-miss-usa-competition/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Chicken Soup for caregivers]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/health/2014/06/08/5-tips-for-families-and-caregivers-those-living-with-alzheimers/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Farewell Don Zimmer]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/opinion/2014/06/05/farewell-don-zimmer-remembering-old-school-baseball-man/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Cleaning up your digital life]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxbusiness.com/personal-finance/2014/06/06/tips-for-cleaning-up-your-digital-life/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Cranston, NPH take top Tonys]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/09/bryan-cranston-neil-patrick-harris-win-top-acting-honors-at-tonys/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA['Frozen' fans flock to Norway]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/travel/2014/06/05/frenzy-over-disney-frozen-movie-includes-increased-interest-in-tourism-to/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA['Stars' shines the brightest]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/08/shailene-woodley-kicks-tom-cruise-butt-at-box-office/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA['Thrones' battle a bore?]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/entertainment/2014/06/09/game-thrones-recap-bloody-battle-bore-another-character-bites-dust/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;![CDATA[Summer movie preview]]&gt;&lt;/title&gt;
+         &lt;link&gt;http://video.foxnews.com/v/3611835434001/&lt;/link&gt;
+         &lt;author&gt;foxnewsonline@foxnews.com&lt;/author&gt;
+         &lt;description/&gt;
+         &lt;pubDate&gt;Mon, 09 Jun 2014 03:26:56 EST&lt;/pubDate&gt;
+         &lt;fnc:datetime&gt;03:26 AM EST&lt;/fnc:datetime&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>collection2</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//rss/channel/item</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>title</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>collection2</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>author</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//author</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>collection2</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://feeds.foxnews.com/foxnews/latest</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>
